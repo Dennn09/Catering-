@@ -2,10 +2,10 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Foto1 from "../img/imgProfil.jpg"; // Ganti dengan jalur gambar yang benar
+import Foto1 from "../img/foto5.jpg"; // Ganti dengan jalur gambar yang benar
 import Foto2 from "../img/imgProfil.jpg"; // Ganti dengan jalur gambar yang benar
-import Foto3 from "../img/imgProfil.jpg"; // Ganti dengan jalur gambar yang benar
-import Foto4 from "../img/imgProfil.jpg"; // Ganti dengan jalur gambar yang benar
+import Foto3 from "../img/Aric.jpg"; // Ganti dengan jalur gambar yang benar
+import Foto4 from "../img/Foto2.png"; // Ganti dengan jalur gambar yang benar
 
 const responsive = {
   superLargeDesktop: {
@@ -27,8 +27,8 @@ const responsive = {
 };
 const testimonials = [
   {
-    name: "Deni Rahman Masulil",
-    nim: "21.11.4377",
+    name: "Paijo Salto",
+    nim: "12.34.5678",
     message:
       "Denn Catering benar-benar mengagumkan! Makanan mereka selalu segar dan lezat. Pasti akan memesan lagi untuk acara keluarga kami berikutnya!",
     image: Foto1,
@@ -41,15 +41,15 @@ const testimonials = [
     image: Foto2,
   },
   {
-    name: "Deni Rahman Masulil",
-    nim: "21.11.4377",
+    name: "Aric Yohanes",
+    nim: "21.11.4381",
     message:
       "Kami sangat puas dengan layanan dari Denn Catering. Makanan enak dan layanan yang cepat membuat acara kami berjalan lancar.",
     image: Foto3,
   },
   {
-    name: "Deni Rahman Masulil",
-    nim: "21.11.4377",
+    name: "Sony",
+    nim: "21.11.4378",
     message:
       "Terima kasih Denn Catering untuk hidangan yang lezat dan layanan yang ramah. Semua tamu kami sangat menikmati makanan yang disediakan.",
     image: Foto4,
