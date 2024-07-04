@@ -60,7 +60,7 @@ const CustomLeftArrow = ({ onClick, ...rest }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute left-[30rem] transform translate-y-1/2 bg-gray-500 text-white p-2 rounded-full shadow-lg"
+      className="absolute left-[30rem] transform translate-y-1/2 bg-gray-500 text-white p-2 rounded-full "
       style={{ bottom: "20px", top: "auto" }}
     >
       <svg
@@ -85,7 +85,7 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute right-[30rem] transform translate-y-1/2 bg-gray-500 text-white p-2 rounded-full shadow-lg"
+      className="absolute right-[30rem] transform translate-y-1/2 bg-gray-500 text-white p-2 rounded-full "
       style={{ bottom: "20px", top: "auto" }}
     >
       <svg
@@ -109,7 +109,7 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
 export const Komentar = () => {
   return (
     <Carousel
-      className="   "
+      className="  h-[28rem] "
       swipeable={false}
       draggable={false}
       showDots={false}

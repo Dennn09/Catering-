@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Abril"],
+        montserrat : ["Montserrat"],
       },
       backgroundImage: {
         'image1': "url('/src/assets/img/image.png')",
@@ -18,6 +19,12 @@ module.exports = {
         'imageGubuk': "url('/src/assets/img/gubukan.jpg')",
         'imageGubukHover': "url('/src/assets/img/gubukanhover.jpg')",
       },
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
     },
   },
   plugins: [],
